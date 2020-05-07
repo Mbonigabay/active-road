@@ -5,6 +5,26 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+
+  nav {
+    z-index: 2;
+
+    #navbar-logo {
+      width: 100px;
+      margin-left: 2rem;
+    }
+
+    a {
+      color: white;
+      text-transform: uppercase;
+
+      &:hover {
+        color:grey;
+      }
+    }
+
+  }
+
 }
 #showcase-content {
   padding-top: 5rem;
