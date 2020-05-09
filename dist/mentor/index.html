@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../resource/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/style.min.css" />
+    <link rel="stylesheet" href="../resource/fontawesome-free/css/all.css" />
+    <title>Mentors</title>
+  </head>
+  <body>
+    <header class="text-white text-center">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <a class="navbar-brand" href="#">
+          <img id="navbar-logo" src="../resource/img/logo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../tutor/index.html">Tutors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../mentor/index.html">Mentors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="btn btn-sm btn-warning mt-1 mr-1"
+                href="../auth/login.html"
+                >Sign in</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-sm btn-warning mt-1" href="../auth/register.html"
+                >Sign up</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+       <h1 class="text-white">Mentors</h1>
+       
+      <div class="row justify-content-between">
+        <section id="content" class="col-md-9 row justify-content-between">
+            <form method="get" class="col-md-12 pl-0 pr-0">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Search Mentors" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-warning" type="button" id="button-addon2">Search</button>
+                    </div>
+                  </div>
+               </form>
+          <div class="card col-md-4  p-0">
+            <img
+              class="card-img-top"
+              src="../resource/img/tutors/person1.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+                <span>Name:</span> <a href="#"> Jane Doe</a> <br>
+                <span>Profession:</span> <span class="badge badge-info"> <a href="">Artist</a></span><br>
+            </div>
+          </div>
+          <div class="card col-md-4   p-0">
+            <img
+              class="card-img-top"
+              src="../resource/img/tutors/person2.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+                <span>Name:</span> <a href="#"> Jane Doe</a> <br>
+                <span>Profession:</span> <span class="badge badge-info"> <a href="">Web Developer</a></span><br>
+            </div>
+          </div>
+          <div class="card col-md-4   p-0">
+            <img
+              class="card-img-top"
+              src="../resource/img/tutors/person3.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+                <span>Name:</span> <a href="#"> Jane Doe</a> <br>
+                <span>Profession:</span> <span class="badge badge-info"> <a href="">Project Manager</a></span><br>
+            </div>
+          </div>
+          <div class="card col-md-4   p-0">
+            <img
+              class="card-img-top"
+              src="../resource/img/tutors/person4.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+                <span>Name:</span> <a href="#"> Jane Doe</a> <br>
+                <span>Profession:</span> <span class="badge badge-info"> <a href="">Quality analyst</a></span><br>
+            </div>
+          </div>
+          <div class="card col-md-4   p-0">
+            <img
+              class="card-img-top"
+              src="../resource/img/tutors/person5.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+                <span>Name:</span> <a href="#"> Jane Doe</a> <br>
+                <span>Profession:</span> <span class="badge badge-info"> <a href="">System Adminstrator</a></span><br>
+            </div>
+          </div>
+          <div class="card col-md-4   p-0">
+            <img
+              class="card-img-top"
+              src="../resource/img/tutors/person6.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+                <span>Name:</span> <a href="#"> Jane Doe</a> <br>
+                <span>Profession:</span> <span class="badge badge-info"> <a href="">Software Tester</a></span><br>
+            </div>
+          </div>
+        </section>
+        <aside id="sidebar" class="col-md-3">
+            <div class="container">
+               <div class="card">
+                   <div class="card-header">
+                       Menu
+                   </div>
+                   <div class="card-body">
+                       <h5 class="card-title">Title</h5>
+                       <p class="card-text">Content</p>
+                   </div>
+               </div>
+            </div>
+        </aside>
+      </div>
+    </main>
+    <footer class="bg-dark text-white text-center p-4">
+      © 2020 Copyright Active Road
+    </footer>
+
+    <script src="../resource/jquery/jquery.js"></script>
+    <script src="../resource/bootstrap/js/bootstrap.js"></script>
+  </body>
+</html>
