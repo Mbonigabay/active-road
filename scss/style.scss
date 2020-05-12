@@ -1,5 +1,6 @@
 @import "./pages/homepage";
 @import "./pages/auth";
+@import "./pages/about";
 
 * {
   box-sizing: border-box;
@@ -8,10 +9,13 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: #fff;
+  background-color: lightgray;
+}
+
+#body-bg {
   background-color: #333;
 }
 
@@ -56,4 +60,21 @@ nav {
   }
 }
 
+#profile-thumbnail {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+#signout-thumbnail {
+  width: 30px;
+  height: 30px;
+  background-color: goldenrod;
+  border-radius: 100%;
+  display: inline-block;
+
+  i {
+    padding: 7px;
+  }
+}
 @import "./mobile";

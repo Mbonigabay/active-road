@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../resource/fontawesome-free/css/all.css" />
     <title>Mentors</title>
   </head>
-  <body>
+  <body id="body-bg">
     <header class="text-white text-center">
       <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
         <a class="navbar-brand" href="#">
@@ -43,7 +43,24 @@
             <li class="nav-item">
               <a class="nav-link" href="../mentor/index.html">Mentors</a>
             </li>
-            <li class="nav-item">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <img id="profile-thumbnail" src="../resource/img/tutors/person1.jpg" alt="">
+                Jane Doe
+              </button>
+              <div class="dropdown-menu  dropdown-menu-right">
+                <a class="dropdown-item" href="../student/show.html">
+                  <img id="profile-thumbnail" src="../resource/img/tutors/person1.jpg" alt=""> My Profile
+                </a>
+                <a class="dropdown-item" href="../index.html">
+                  <div id="signout-thumbnail">
+                    <i class="fas fa-sign-out-alt" style="width: 100%;"></i>
+                  </div> Sign Out
+                </a>
+              </div>
+            </div>
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#">Categories</a>
             </li>
             <li class="nav-item">
@@ -54,106 +71,138 @@
               >
             </li>
             <li class="nav-item">
-              <a class="btn btn-sm btn-warning mt-1" href="../auth/register.html"
+              <a
+                class="btn btn-sm btn-warning mt-1"
+                href="../auth/register.html"
                 >Sign up</a
               >
-            </li>
+            </li> -->
           </ul>
         </div>
       </nav>
     </header>
     <main class="container">
-       <h1 class="text-white">Mentors</h1>
-       
+      <h1 class="text-white">Mentors</h1>
+
       <div class="row justify-content-between">
         <section id="content" class="col-md-9 row justify-content-between">
-            <form method="get" class="col-md-12 pl-0 pr-0">
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Search Mentors" aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <div class="input-group-append">
-                      <button class="btn btn-outline-warning" type="button" id="button-addon2">Search</button>
-                    </div>
-                  </div>
-               </form>
-          <div class="card col-md-4  p-0">
-            <img
-              class="card-img-top"
-              src="../resource/img/tutors/person1.jpg"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-                <span>Name:</span> <a href="#"> Jane Doe</a> <br>
-                <span>Profession:</span> <span class="badge badge-info"> <a href="">Artist</a></span><br>
+          <form method="get" class="col-md-12 pl-0 pr-0">
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search Mentors"
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
+              <div class="input-group-append">
+                <button
+                  class="btn btn-outline-warning"
+                  type="button"
+                  id="button-addon2"
+                >
+                  Search
+                </button>
+              </div>
             </div>
-          </div>
-          <div class="card col-md-4   p-0">
+          </form>
+          <a href="./show.html">
+            <div class="card col-md-4 p-0">
+              <img
+                class="card-img-top"
+                src="../resource/img/tutors/person1.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <span>Name:</span> <a href="#"> Jane Doe</a> <br />
+                <span>Profession:</span>
+                <span class="badge badge-info"> <a href="">Artist</a></span
+                ><br />
+              </div>
+            </div>
+          </a>
+          <div class="card col-md-4 p-0">
             <img
               class="card-img-top"
               src="../resource/img/tutors/person2.jpg"
               alt="Card image cap"
             />
             <div class="card-body">
-                <span>Name:</span> <a href="#"> Jane Doe</a> <br>
-                <span>Profession:</span> <span class="badge badge-info"> <a href="">Web Developer</a></span><br>
+              <span>Name:</span> <a href="#"> Jane Doe</a> <br />
+              <span>Profession:</span>
+              <span class="badge badge-info"> <a href="">Web Developer</a></span
+              ><br />
             </div>
           </div>
-          <div class="card col-md-4   p-0">
+          <div class="card col-md-4 p-0">
             <img
               class="card-img-top"
               src="../resource/img/tutors/person3.jpg"
               alt="Card image cap"
             />
             <div class="card-body">
-                <span>Name:</span> <a href="#"> Jane Doe</a> <br>
-                <span>Profession:</span> <span class="badge badge-info"> <a href="">Project Manager</a></span><br>
+              <span>Name:</span> <a href="#"> Jane Doe</a> <br />
+              <span>Profession:</span>
+              <span class="badge badge-info">
+                <a href="">Project Manager</a></span
+              ><br />
             </div>
           </div>
-          <div class="card col-md-4   p-0">
+          <div class="card col-md-4 p-0">
             <img
               class="card-img-top"
               src="../resource/img/tutors/person4.jpg"
               alt="Card image cap"
             />
             <div class="card-body">
-                <span>Name:</span> <a href="#"> Jane Doe</a> <br>
-                <span>Profession:</span> <span class="badge badge-info"> <a href="">Quality analyst</a></span><br>
+              <span>Name:</span> <a href="#"> Jane Doe</a> <br />
+              <span>Profession:</span>
+              <span class="badge badge-info">
+                <a href="">Quality analyst</a></span
+              ><br />
             </div>
           </div>
-          <div class="card col-md-4   p-0">
+          <div class="card col-md-4 p-0">
             <img
               class="card-img-top"
               src="../resource/img/tutors/person5.jpg"
               alt="Card image cap"
             />
             <div class="card-body">
-                <span>Name:</span> <a href="#"> Jane Doe</a> <br>
-                <span>Profession:</span> <span class="badge badge-info"> <a href="">System Adminstrator</a></span><br>
+              <span>Name:</span> <a href="#"> Jane Doe</a> <br />
+              <span>Profession:</span>
+              <span class="badge badge-info">
+                <a href="">System Adminstrator</a></span
+              ><br />
             </div>
           </div>
-          <div class="card col-md-4   p-0">
+          <div class="card col-md-4 p-0">
             <img
               class="card-img-top"
               src="../resource/img/tutors/person6.jpg"
               alt="Card image cap"
             />
             <div class="card-body">
-                <span>Name:</span> <a href="#"> Jane Doe</a> <br>
-                <span>Profession:</span> <span class="badge badge-info"> <a href="">Software Tester</a></span><br>
+              <span>Name:</span> <a href="#"> Jane Doe</a> <br />
+              <span>Profession:</span>
+              <span class="badge badge-info">
+                <a href="">Software Tester</a></span
+              ><br />
             </div>
           </div>
         </section>
         <aside id="sidebar" class="col-md-3">
-            <div class="container">
-               <div class="card">
-                   <div class="card-header">
-                       Menu
-                   </div>
-                   <div class="card-body">
-                       <h5 class="card-title">Title</h5>
-                       <p class="card-text">Content</p>
-                   </div>
-               </div>
+          <div class="container">
+            <div class="card">
+              <div class="card-header">
+                Menu
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Title</h5>
+                <p class="card-text">Content</p>
+              </div>
             </div>
+          </div>
         </aside>
       </div>
     </main>
